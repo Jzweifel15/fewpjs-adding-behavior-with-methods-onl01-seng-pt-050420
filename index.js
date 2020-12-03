@@ -5,4 +5,6 @@ class Cat
     this.name = name;
     this.sex = sex;
   }
+  
+  speak = () => `${this.name} says meow!`;
 }
