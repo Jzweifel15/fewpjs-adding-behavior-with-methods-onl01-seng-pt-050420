@@ -6,7 +6,10 @@ class Cat
     this.sex = sex;
   }
   
-  speak = () => `${this.name} says meow!`;
+  speak()
+  {
+    return `${this.name} says meow!`;
+  }
 }
 
 class Dog 
